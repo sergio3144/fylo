@@ -120,18 +120,25 @@ section .button {
 }
 
 .section-two .card {
-  margin: 200px 150px 0 0;
+  margin: 150px 150px 0 0;
   width: 700px;
   height: 300px;
-  border: 1px solid black;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
   max-width: 400px;
   padding: 20px;
+  background-color: #e8e8e8;
+  border-radius: 10px;
 }
 
 .section-two .card .avatar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.section-two .card .avatar p {
+  font-weight: bold;
 }
 
 .section-two .card .avatar img {
@@ -141,11 +148,102 @@ section .button {
   width: 60px;
 }
 
-.section-two .card .avatar h1 {
-  margin: 60px 0 0 30px;
+.section-two .card .avatar div h1 {
+  margin: 60px 0 0 20px;
 }
 
-.section-two .card .avatar h3 {
-  margin: 60px 0 0 30px;
+.section-two .card .avatar div h3 {
+  margin-left: 20px;
+}
+
+.footer-one {
+  background-color: #585989;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 40px 0 50px 0;
+}
+
+.footer-one .footer-one-info {
+  max-width: 500px;
+  color: white;
+}
+
+.footer-one .footer-one-info h1 {
+  font-size: 30px;
+  margin: 20px 0 20px 0;
+}
+
+.footer-one .footer-one-info h4 {
+  line-height: 25px;
+}
+
+.footer-one .formulario {
+  margin-top: 22px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #708d9e;
+  padding-top: 30px;
+}
+
+footer .dates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .dates .lgo-imgg {
+  margin-bottom: 30px;
+}
+
+footer .dates .logo-contact {
+  width: 20px;
+  padding: 10px;
+}
+
+footer .informes li {
+  margin-bottom: 40px;
+  list-style: none;
+}
+
+footer .informes li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .contacts {
+  margin-top: 30px;
+}
+
+footer .contacts li {
+  margin-bottom: 40px;
+  list-style: none;
+}
+
+footer .contacts li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .social-media {
+  margin-top: 80px;
+}
+
+footer .social-media img {
+  width: 30px;
+  margin-right: 20px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=index.css.map */
