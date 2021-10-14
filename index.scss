@@ -1,0 +1,119 @@
+$color-title: black;
+$color-button:#3295d8;
+$color-footer-one: #585989;
+$color-footer-two: #708d9e;
+$color-section: #f6f6fe;
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0 30px;
+    .img-logo {
+        width: 100px;
+        height: 32px;
+    }
+    .items li {
+        display: inline-block;
+        margin-right: 20px;
+        a {
+            text-decoration: none;
+            color: $color-title;
+            font-weight: bold;
+        }
+    }
+}
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0 0 30px;
+    .info-main {
+        max-width: 600px;
+        margin-top: 60px;
+        h1 {
+            font-size: 35px;
+            color: $color-title;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+    }    
+    div img {
+        width: 350px;
+    }
+}
+section {
+    input {
+        margin: 30px 0 0 30px;
+        width: 300px;
+        border-radius: 2px;
+        border: 1px solid rgb(138, 138, 138);
+        padding: 12px;
+        outline: none;
+    }
+    .button {
+        width: 180px;
+        padding: 12px;
+        border-radius: 7px;
+        margin-left: 10px;
+        border: none;
+        background-color: $color-button;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+.section-two {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-section;
+    padding: 10px 0 0 30px;
+    margin-top: 70px;
+    .info {
+        max-width: 600px;
+        margin-top: 60px;
+        h1 {
+            font-size: 35px;
+            color: $color-title;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        a {
+            color: #3c9f8f;
+        }
+    }
+    div img {
+        margin-top: 60px;
+        width: 350px;
+    }
+    .card {
+        margin: 200px 150px 0 0;
+        width: 700px;
+        height: 300px;
+        border: 1px solid black;
+        max-width: 400px;
+        padding: 20px;
+        .avatar {
+            display: flex;
+            img {
+                border-radius: 50%;
+                object-fit: cover;
+                width: 60px;
+            }
+            h1 {
+                margin: 60px 0 0 30px;
+            }
+            h3 {
+                margin: 60px 0 0 30px;
+            }
+        }
+    }
+}
