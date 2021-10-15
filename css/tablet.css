@@ -1,0 +1,77 @@
+
+header, .items {
+    text-align: center;
+    margin: 0 auto;
+}
+.section-one, .info-main div img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.section-one, .info-main {
+    text-align: center;
+    margin: 0 auto;
+}
+section label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.section-two, .section-two-info {
+    margin: 0 auto;
+    text-align: center;
+}
+.section-two, .section-two-img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-one, .footer-one-info {
+    text-align: center;
+}
+.footer-one, .formulario, .label {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+@media (max-width: 480px) {
+    .footer-one, .formulario, .input {
+        margin: 0 auto;
+    }
+}
+footer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+footer .dates, .informes, .contacts, .social-media {
+    grid-column: 2 / 3;
+    margin: 0 auto;
+}
+footer .dates {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+.dates, .logo-contact {
+    margin: 0 auto;
+}
+footer, .informes {
+    margin: 20px 0 0 15px;
+    text-align: center;
+    line-height: 1px;
+    border-bottom: 1px solid black;
+    margin: 0 auto;
+    padding-bottom: -30px;
+}

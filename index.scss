@@ -7,6 +7,7 @@ $color-section: #f6f6fe;
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
@@ -42,6 +43,11 @@ body {
             font-weight: bold;
             margin-bottom: 25px;
         }
+        p {
+            line-height: 30px;
+            font-weight: bold;
+            color: rgb(123, 123, 123);
+        }
     }    
     div img {
         width: 350px;
@@ -72,64 +78,35 @@ section {
     display: flex;
     justify-content: space-between;
     background-color: $color-section;
-    padding: 10px 0 0 30px;
-    margin-top: 70px;
-    .info {
-        max-width: 600px;
-        margin-top: 60px;
+    margin-top: 160px;
+    .section-two-info {
+        max-width: 590px;
+        padding-left: 30px;
+        margin-top: 50px;
         h1 {
             font-size: 35px;
-            color: $color-title;
-            font-weight: bold;
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
         p {
             margin-bottom: 20px;
+            line-height: 30px;
+            font-weight: bold;
+            color: rgb(123, 123, 123);
         }
         a {
             color: #3c9f8f;
         }
     }
-    div img {
-        margin-top: 60px;
-        width: 350px;
+    .section-two-img img {
+        width: 360px;
     }
-    .card {
-        margin: 150px 150px 0 0;
-        width: 700px;
-        height: 300px;
-        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
-        max-width: 400px;
-        padding: 20px;
-        background-color: rgb(232, 232, 232);
-        border-radius: 10px;
-        .avatar {
-            display: flex;
-            p{
-                font-weight: bold;
-            }
-            img {
-                border-radius: 50%;
-                object-fit: cover;
-                width: 60px;
-            }
-            div {
-                h1{
-                    margin: 60px 0 0 20px;
-                }
-                h3 {
-                    margin-left: 20px;
-                }
-            }
-            
-        }
-    }
-}
+}    
 .footer-one {
     background-color: $color-footer-one;
     display: flex;
     justify-content: space-around;
     padding: 40px 0 50px 0;
+    margin-top: 30px;
     .footer-one-info {
         max-width: 500px;
         color: white;
@@ -192,3 +169,5 @@ footer {
         }
     }
 }
+
+
